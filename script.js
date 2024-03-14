@@ -71,6 +71,8 @@ resetbtn.addEventListener('click', ()=>{
 
   resetbtn.disabled= true
   generatebtn.disabled=true
+  customtipi.disabled=true
+  Peoplei.disabled=true
   tipscontainer.classList.add('disable')
 
   billAmti.value=''
