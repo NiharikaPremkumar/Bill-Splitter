@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Splitter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="shorcut icon" href="bill splitter.jpg" type="x-icon"/>
+</head>
+<body>
+    <img src="BS.jpg" class="logo">
+    <h1>Bill Splitter</h1>
+    <main>
+        <div class="Input">
+            <p> Bill</p>
+            <div class="i-container">
+                <span>₹</span>
+                <input id="amt" type="number" required>
+            </div>
+            <p> Select Tip</p>
+            <div class="tip-container disable">
+                <button class="tips">5%</button>
+                <button class="tips">10%</button>
+                <button class="tips">15%</button>
+                <button class="tips">25%</button>
+                <button class="tips">50%</button>
+            </div>
+            <input class="customtip gray-input" disabled ="number" placeholder="Custom Tip (In Percentage)"  >
+            <p>Number Of Splitters</p>
+            <input class="people gray-input" type="number" placeholder="2" disabled>
+            <button class="generatebtn"disabled>Calculate</button>
+        </div>
+    
+        
+        <div class="Output">
+           <p class="tipamt">Tip amount <span>1</span></p>
+           <p class="totalbill">Total <span>1</span></p>
+           <p class="per-person">Everyone Pays <span>1</span></p>
+           <button class="resetbtn" disabled>Reset</button>
+        </div>
+    </main>
+ 
+
+</body>
+</html> 
+  
